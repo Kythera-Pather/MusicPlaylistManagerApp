@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/img"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="#00BCD4"
+            android:text="𝓜𝓾𝓼𝓲𝓬 𝓟𝓵𝓪𝔂𝓵𝓲𝓼𝓽 𝓜𝓪𝓷𝓪𝓰𝓮𝓻 𝓐𝓹𝓹"
+            android:textSize="34sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/edtArtistName"
+            android:layout_width="149dp"
+            android:layout_height="34dp"
+            android:layout_marginTop="30dp"
+            android:background="#E6A0B8"
+            android:backgroundTint="#DC9AB1"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="𝑨𝒓𝒕𝒊𝒔𝒕 𝑵𝒂𝒎𝒆"
+            android:inputType="text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edtSongList" />
+
+        <EditText
+            android:id="@+id/edtRating"
+            android:layout_width="149dp"
+            android:layout_height="34dp"
+            android:layout_marginTop="30dp"
+            android:background="#E6A0B8"
+            android:backgroundTint="#DC9AB1"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="𝑹𝒂𝒕𝒊𝒏𝒈(1-5)"
+            android:inputType="text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edtArtistName" />
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="#0B6F7C"
+            android:text="𝔸𝕕𝕕 𝕋𝕠 ℙ𝕝𝕒𝕪𝕝𝕚𝕤𝕥"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/btnDetailedView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <EditText
+            android:id="@+id/edtSongList"
+            android:layout_width="149dp"
+            android:layout_height="34dp"
+            android:layout_marginTop="30dp"
+            android:background="#E6A0B8"
+            android:backgroundTint="#DC9AB1"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="𝑺𝒐𝒏𝒈 𝑳𝒊𝒔𝒕"
+            android:inputType="text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <EditText
+            android:id="@+id/edtComment"
+            android:layout_width="149dp"
+            android:layout_height="34dp"
+            android:layout_marginTop="30dp"
+            android:background="#E6A0B8"
+            android:backgroundTint="#DC9AB1"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="𝑪𝒐𝒎𝒎𝒆𝒏𝒕𝒔"
+            android:inputType="text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edtRating" />
+
+        <Button
+            android:id="@+id/btnDetailedView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="#317AB4"
+            android:text="𝔻𝕖𝕥𝕒𝕚𝕝𝕖𝕕 𝕍𝕚𝕖𝕨 𝕊𝕔𝕣𝕖𝕖𝕟"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/btnExit"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/btnExit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="#1C7C72"
+            android:text="𝔼𝕩𝕚𝕥"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
