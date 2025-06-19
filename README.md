@@ -81,7 +81,18 @@ Logcat (Log.d)             -    	Debugging and development tracing
 ---
 
 ## How It Works:
-1. 
+1. There are 4 category ( Song, Artist, Rating(1-5) and Comments)
+2. After each time the user inputs they press the Add to playlist button
+3. Aftetr the user is done thewy can either exit by pressing the exist button
+4. Or go and see their input whihc they can press the Detailed View Screen
+5. It will take the user to the next page where they need to press the Display song details button
+6. The user will be able to see their information they inputted
+7. By pressing the Average Rating button will calculate the totale average from all the rating
+8. By pressing the Back button will allow the user to go back to the main Screen
+
+---
+
+
 
 
 
