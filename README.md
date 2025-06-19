@@ -82,15 +82,114 @@ Logcat (Log.d)             -    	Debugging and development tracing
 
 ## How It Works:
 1. There are 4 category ( Song, Artist, Rating(1-5) and Comments)
-2. After each time the user inputs they press the Add to playlist button
-3. Aftetr the user is done thewy can either exit by pressing the exist button
-4. Or go and see their input whihc they can press the Detailed View Screen
-5. It will take the user to the next page where they need to press the Display song details button
-6. The user will be able to see their information they inputted
-7. By pressing the Average Rating button will calculate the totale average from all the rating
-8. By pressing the Back button will allow the user to go back to the main Screen
+2. Add to playlist button
+3. Can exit
+4. If wish to contuin press the Detailed view screen
+5. Display song details button the viewe the information
+6. Calculates Average Rating
+7. Button to go to Main screen
 
 ---
+
+## How to Use the App
+1. Lanuch the App
+2. welcomed to the Main screen there are 4 category ( Song, Artist, Rating(1-5) and Comments)
+3. After each time the user inputs they press the Add to playlist button
+4. Aftetr the user is done thewy can either exit by pressing the exist button
+5. Or go and see their input which they can press the Detailed View Screen
+6. It will take the user to the next page where they need to press the Display song details button
+7. The user will be able to see their information they inputted
+8. By pressing the Average Rating button will calculate the totale average from all the rating
+9. By pressing the Back button will allow the user to go back to the main Screen
+
+---
+
+## 4 Category
+- Song Name
+- Artist
+- Rating(1-5)
+- Comments
+
+---
+## Why We Use Logs
+1.	Logs (e.g., Log are used to:
+2.	Debug application logic.
+3.	Track variable values (like username. Buttons or selected answers).
+4.	Identify issues during development.
+   
+Logs are not shown to the user but are extremely useful in the Logcat console of Android Studio for developers. Makes the code easy.
+
+
+---
+
+## GitHub and Version Control
+GitHub is used for:
+
+GitHub is an online platform used to store, manage, and collaborate on code projects using version control (Git). It helps keep track of changes to code over time and allows multiple people to work on the same project without losing progress.
+
+
+1.	Storing the source code online
+2.	Collaborating with team members
+3.	Tracking changes using commits
+4.	Managing issues and improvement suggestions
+
+## GitHub Actions
+GitHub Actions is a tool built into GitHub that allows you to automate tasks like building, testing, or deploying your app every time you push code to your repository.
+
+In this project:
+
+GitHub Actions automatically builds your Android app using Gradle every time you push updates to the master branch.
+
+This ensures your code is always working and up-to-date, helping catch errors early.
+
+### Why commit and push?
+1.	Saves your work safely online
+2.	Keeps a history of every update
+3.	Makes collaboration easier
+4.	Helps in testing different versions
+
+---
+
+## Potential Improvements
+- Add more features
+- Include dark mode
+- Add more categories
+- Add a higher rating
+
+ ---
+
+## Screenshot of the App and Codes
+### Mainscreen
+![image](https://github.com/user-attachments/assets/a9ae729e-665e-4a66-a700-aeed98183555)
+welcomed to the Main screen there are 4 category. After each time the user inputs they press the Add to playlist button. Aftetr the user is done thewy can either exit by pressing the exist button or go and see their input which they can press the Detailed View Screen
+### Code
+
+The Arrya for the 4 categoryt
+![image](https://github.com/user-attachments/assets/8d37f271-f3b6-46bc-b793-8a2ad4de6b92)
+
+The code is  for Adding buttons for the input to go throught the next screen 
+![image](https://github.com/user-attachments/assets/e8b7ede5-5af1-4609-99ff-27513fe660a6)
+
+The code for going to the next screen by pressing the Detaited view screen ot exit  button to exit the app
+![image](https://github.com/user-attachments/assets/c43cfda7-2551-4035-a787-97d6d7345cf3)
+
+
+### Detailed screen
+ 
+![image](https://github.com/user-attachments/assets/f5f7a3f8-0ede-48dc-b6f9-13c2c34e7781)
+Detailed View screen page where they need to press the Display song details button. The user will be able to see their information they inputted. By pressing the Average Rating button will calculate the totale average from all the rating. By pressing the Back button will allow the user to go back to the main Screen
+
+### Code
+![image](https://github.com/user-attachments/assets/470f45a9-ab08-4f79-bed3-d788987c0e8d)
+The information will appear from the input 
+
+
+![image](https://github.com/user-attachments/assets/9fd7617d-5424-4617-a5f8-650be0afb320)
+To see the average rating and to go back to the main screen
+
+---
+
+## Emulator Running
 
 
 
