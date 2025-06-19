@@ -21,6 +21,7 @@ class DetailedViewActivity : AppCompatActivity() {
             insets
         }//End of setContentView
 
+        //links the elements top the layout
         val songDetails = findViewById<TextView>(R.id.tvDetails)
         val displayDetails = findViewById<Button>(R.id.btnDisplayDetails)
         val averageRating = findViewById<Button>(R.id.btnAverageRating)
