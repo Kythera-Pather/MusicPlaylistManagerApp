@@ -16,10 +16,10 @@ The Music Playlist Manager App is an interactive Android application built in An
 ---
 
 ## Key Features 
-Has four catergoray for the user to fill in
-Displays the information the user has enter 
-Give an average rating for when the user inputs the songs they have rated
-Multi-Screen Navigation: Clean separation of UI across different screens
+1. Has four catergoray for the user to fill in
+2. Displays the information the user has enter 
+3. Give an average rating for when the user inputs the songs they have rated
+4. Multi-Screen Navigation: Clean separation of UI across different screens
 
 ---
 
@@ -31,6 +31,67 @@ Multi-Screen Navigation: Clean separation of UI across different screens
 ---
 
 ## Layouts
+1. activity_main.xml – Input field for the 4 catergoray and Add to playlist, Detailed view and Exit button
+2. activity_detailed_view.xml - Has a textview whihc shows the the user their input and a display song details, avaerage rating and back button
+
+---
+
+ ## Technologies Used
+
+•	IDE: Android Studio
+
+•	Language: Kotlin
+
+•	UI Components: TextView, EditText, Button, LinearLayout, Toast, Intent, Imagie
+
+•	Layouts: XML using ConstraintLayout and LinearLayout
+
+•	Architecture: Activity-based navigation (MainActivity and DetailedViewActivity)
+
+
+
+### Technologies Used
+Technology       -             	Purpose
+
+Android Studio	    -            Main development environment
+
+Kotlin           -             	Programming language
+
+XML            -               	Designing UI layouts
+
+EditText          -            	sont, artist Name, Rating and comment
+
+Intent           -             	Navigation between activities
+
+Toast           -               	Feedback to users
+
+ConstraintLayout, LinearLayout	-UI structuring
+
+Logcat (Log.d)             -    	Debugging and development tracing
+
+----
+
+## Installation
+1.	Download the project or clone this repository.
+2.	Open the project in Android Studio. -Start Android Studio. -Select "Open an existing Android Studio project"" -Go to the directory of the cloned repository and choose either the build.gradle.kts (or build.gradle) file or the root folder of the project.
+3.	Grade of Sync: Upon opening the project, Android Studio will probably ask you to sync the Gradle files. Select "Sync Now". For this step, make sure you have a steady internet connection.
+4.	To build and install the application, click Run Button.Open the Android Studio menu and select "Build -> Make Project"
+5.	To test, connect an Android device or emulator. -Open the application: * Use an Android emulator or connect an Android device to your PC. Choose your device or emulator in Android Studio using the device dropdown in the
+
+---
+
+## How It Works:
+1. There are 4 category ( Song, Artist, Rating(1-5) and Comments)
+2. After each time the user inputs they press the Add to playlist button
+3. Aftetr the user is done thewy can either exit by pressing the exist button
+4. Or go and see their input whihc they can press the Detailed View Screen
+5. It will take the user to the next page where they need to press the Display song details button
+6. The user will be able to see their information they inputted
+7. By pressing the Average Rating button will calculate the totale average from all the rating
+8. By pressing the Back button will allow the user to go back to the main Screen
+
+---
+
 
 
 
